@@ -37,7 +37,7 @@ body {
 .header h2 {
   font-size: 2.2rem;
   color: hsl(0, 0%, 59%);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .header h2 span {
@@ -48,6 +48,7 @@ body {
 .header p {
   color: hsl(209, 33%, 12%);
   margin-bottom: 5rem;
+  font-size: 1.2rem;
 }
 
 form {
@@ -78,7 +79,8 @@ form button {
 .img-container {
   width: 100%;
   object-fit: cover;
-  margin-bottom: 5rem;
+  object-position: center;
+  margin-bottom: 10rem;
 }
 
 .img-container img {
